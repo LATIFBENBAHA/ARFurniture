@@ -3,32 +3,31 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/good_to_know_view"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:paddingLeft="22dp"
+    android:paddingRight="22dp">
 
-
+<!--
     <TextView
         android:id="@+id/good_to_know_title"
         android:layout_width="match_parent"
         android:layout_height="38dp"
-        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/roboto"
         android:gravity="left"
         android:text="Good to know"
+        android:textColor="@android:color/black"
         android:textSize="18sp"
-        android:textStyle="bold"
+        android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/show_good_to_know"
+        app:layout_constraintEnd_toStartOf="@+id/show_good_to_know"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/show_good_to_know"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="4dp"
-        android:layout_marginBottom="4dp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:background="@drawable/ic_keyboard_arrow_down_black_24dp"
         app:layout_constraintBottom_toBottomOf="@+id/good_to_know"
         app:layout_constraintEnd_toEndOf="parent"
@@ -45,7 +44,7 @@
         android:fontFamily="@font/calibri"
         android:padding="16dp"
         android:text="@string/default_text"
-        android:textColor="#444444"
+        android:textColor="@color/subtitle"
         android:textSize="16sp"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -53,6 +52,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/good_to_know_title"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

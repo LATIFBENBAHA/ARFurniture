@@ -1,35 +1,33 @@
 {
   "project_info": {
-    "project_number": "72580961193",
-    "project_id": "creche-cde47",
-    "storage_bucket": "creche-cde47.appspot.com"
+    "project_number": "221217065772",
+    "project_id": "fria-e4a22",
+    "storage_bucket": "fria-e4a22.appspot.com"
   },
-
-
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:72580961193:android:c329cddbc3570aef152ab8",
+        "mobilesdk_app_id": "1:221217065772:android:f8ca14e66965051dfbba89",
         "android_client_info": {
-          "package_name": "com.huji.couchmirage"
+          "package_name": "com.houssem.fria"
         }
       },
       "oauth_client": [
         {
-          "client_id": "72580961193-g3eespenulvfa13uocvns01lou22gr2t.apps.googleusercontent.com",
+          "client_id": "221217065772-63cuck8vj5n9dd84il3b53eiubum298n.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDlVvANaJl_UpcKZAmhOlE9UeXwFnOrfS8"
+          "current_key": "AIzaSyDD-YEP1-YMrxNmwbpWZUAOxtgoHDwn11Q"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "72580961193-g3eespenulvfa13uocvns01lou22gr2t.apps.googleusercontent.com",
+              "client_id": "221217065772-63cuck8vj5n9dd84il3b53eiubum298n.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

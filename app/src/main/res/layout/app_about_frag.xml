@@ -4,6 +4,7 @@
     android:layout_width="fill_parent"
 
     android:layout_height="fill_parent"
+    android:background="#FFFFFF"
     android:orientation="vertical">
 
     <RelativeLayout
@@ -17,15 +18,10 @@
 
         card_view:layout_constraintTop_toTopOf="parent">
 
-        <ImageView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:scaleType="centerCrop"
-            android:src="@drawable/cool_bcg" />
-
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
+            android:background="#FFF"
             android:orientation="vertical">
 
 
@@ -35,10 +31,10 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="14.0dip"
                 android:text="What is Couch Mirage?"
-                android:textColor="@color/scale_btn_ripple"
-                android:textStyle="bold"
+                android:textColor="#03a1ff"
+                android:textSize="20.0sp"
 
-                android:textSize="20.0sp" />
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="fill_parent"
@@ -96,9 +92,9 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="14.0dip"
                 android:text="How does it work?"
-                android:textColor="@color/scale_btn_ripple"
-                android:textStyle="bold"
-                android:textSize="20.0sp" />
+                android:textColor="#03a1ff"
+                android:textSize="20.0sp"
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="fill_parent"
@@ -138,8 +134,8 @@
                                 android:layout_height="wrap_content"
                                 android:layout_centerVertical="true"
                                 android:layout_marginLeft="10.0dip"
-                                android:layout_marginBottom="10dip"
                                 android:layout_marginRight="10.0dip"
+                                android:layout_marginBottom="10dip"
                                 android:gravity="center"
                                 android:text="@string/how_app_works"
                                 android:textColor="#000000"
@@ -163,11 +159,10 @@
         android:layout_margin="10dp"
 
         android:layout_marginBottom="16dp"
-        android:background="@drawable/round_button_alt"
-        android:textSize="20.0sp"
-        android:textStyle="bold"
         android:text="OK"
         android:textColor="#DAEFDE"
+        android:textSize="20.0sp"
+        android:textStyle="bold"
         card_view:layout_constraintBottom_toBottomOf="@+id/relativeLayout"
         card_view:layout_constraintEnd_toEndOf="parent"
         card_view:layout_constraintStart_toStartOf="@+id/relativeLayout"

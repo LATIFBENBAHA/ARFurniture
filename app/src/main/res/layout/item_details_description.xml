@@ -3,18 +3,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/descrption_view"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:paddingLeft="22dp"
+    android:paddingRight="22dp">
 
-
+<!--
     <TextView
         android:id="@+id/description_title"
         android:layout_width="match_parent"
         android:layout_height="38dp"
-        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/roboto"
         android:gravity="left"
         android:text="Description"
+        android:textColor="@android:color/black"
+        android:textColorLink="#03a1ff"
         android:textSize="18sp"
-        android:textStyle="bold"
+        android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/show_description"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,13 +27,11 @@
 
     <Button
         android:id="@+id/show_description"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="4dp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:layout_marginEnd="4dp"
-        android:layout_marginBottom="4dp"
         android:background="@drawable/ic_keyboard_arrow_down_black_24dp"
+        android:fontFamily="@font/roboto"
         app:layout_constraintBottom_toBottomOf="@+id/description"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -42,10 +44,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:fontFamily="@font/calibri"
+        android:fontFamily="@font/roboto"
         android:padding="16dp"
         android:text="Item Description"
-        android:textColor="#444444"
+        android:textColor="@color/subtitle"
+        android:textColorLink="#03a1ff"
         android:textSize="16sp"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -53,6 +56,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/description_title"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
