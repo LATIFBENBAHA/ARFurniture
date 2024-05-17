@@ -61,14 +61,14 @@
             app:isb_tick_texts_color="@color/btn_send_normal"
             app:isb_tick_texts_size="15dp"
             app:isb_ticks_count="0"
-            app:isb_track_background_color="@color/fab_color_shadow"
-            app:isb_track_background_size="2dp"
-            app:isb_track_progress_color="#69E781"
-            app:isb_track_progress_size="4dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
 
-        <!--your layout-->
+        app:isb_track_background_size="2dp"
+        app:isb_track_progress_color="#69E781"
+        app:isb_track_progress_size="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        <!--app:isb_track_background_color="@color/fab_color_shadow"-->
+    <!--your layout-->
     </com.warkiz.widget.IndicatorStayLayout>
 
     <ImageView

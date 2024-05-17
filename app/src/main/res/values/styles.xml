@@ -1,10 +1,41 @@
 <resources>
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="AppTheme" parent="Theme.Material3.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">#F29FF8B0</item>
-        <item name="colorPrimaryDark">#F2199C32</item>
-        <item name="colorAccent">#F279C888</item>
+        <!-- <item name="colorPrimary">@color/colorPrimary</item>
+         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+         <item name="colorAccent">@color/colorAccent</item>
+         <item name="android:windowBackground">#0464c8</item>-->
+
+    </style>
+    <style name="SplashScreenTheme" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!-- <item name="colorPrimary">@color/colorPrimary</item>
+         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+         <item name="colorAccent">@color/colorAccent</item>
+         <item name="android:windowBackground">#0464c8</item>-->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="LoginActivityTheme" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!-- <item name="colorPrimary">@color/colorPrimary</item>
+         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+         <item name="colorAccent">@color/colorAccent</item>
+         <item name="android:windowBackground">#0464c8</item>-->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorPrimaryDark">#FF4081</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="yellowBackground" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">#fcd45c</item>
+        <item name="colorPrimaryDark">#ecbb2c</item>
+        <item name="colorAccent">#ecbb2c</item>
+        <item name="android:windowBackground">#ecbb2c</item>
     </style>
 
     <style name="AppTheme.TransparentActivity">
@@ -46,4 +77,20 @@
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowIsFloating">false</item>
     </style>
+
+    <style name="Widget.App.ButtonStyle"
+        parent="Widget.MaterialComponents.Button">
+        <item name="materialThemeOverlay">@style/GreenButtonThemeOverlay</item>
+    </style>
+
+    <style name="GreenButtonThemeOverlay">
+        <item name="colorPrimary">#FFF</item>
+    </style>
+
+
+    <style name="ProgressBarStyle">
+        <item name="colorAccent">@color/blue</item>
+    </style>
+
+    <color name="blue">#198DFA</color>
 </resources>

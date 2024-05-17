@@ -32,7 +32,7 @@
                     app:iss_auto_cycle="false"
                     app:iss_delay="0"
                     app:iss_period="1000"
-
+                    app:iss_placeholder="@drawable/placeholder"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -62,11 +62,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:backgroundTint="#69E781"
                         android:src="@drawable/ic_3d_cube"
-                        app:backgroundTint="#69E781"
                         app:borderWidth="1dp"
-
+                        app:elevation="4dp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -75,14 +73,16 @@
 
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="16dp"
+                        android:layout_height="wrap_content"
                         android:layout_marginTop="2dp"
                         android:layout_marginRight="5dp"
                         android:layout_marginBottom="8dp"
-                        android:fontFamily="@font/calibri"
+                        android:elevation="4dp"
+                        android:fontFamily="@font/roboto"
                         android:text="Try in your place"
-                        android:textColor="#69E781"
+                        android:textColor="@color/colorPrimaryDark"
                         android:textStyle="bold"
+                        android:visibility="invisible"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -96,17 +96,50 @@
 
             <include layout="@layout/item_details_title" />
 
-            <View
-                android:layout_width="200dp"
-                android:layout_height="4dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="8dp"
-                android:background="#dedede" />
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:paddingLeft="@dimen/dimen24dp"
+                android:paddingRight="@dimen/dimen24dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/subtitle"
+                android:textColorLink="#03a1ff"
+                android:textSize="16sp"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/description_title"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/description_title"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
 
-            <include layout="@layout/item_details_description" />
+            <TextView
+                android:id="@+id/good_to_know"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen24dp"
+                android:fontFamily="@font/calibri"
+                android:paddingLeft="@dimen/dimen24dp"
+                android:paddingRight="@dimen/dimen24dp"
+                android:textColor="@color/subtitle"
+                android:textSize="16sp"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/good_to_know_title"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/good_to_know_title"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
 
-            <include layout="@layout/item_details_good_to_know" />
+           <!-- <include
+                layout="@layout/item_details_description"
+                android:visibility="gone" />
+
+            <include
+                layout="@layout/item_details_good_to_know"
+                android:visibility="gone" />-->
 
 
         </LinearLayout>
@@ -116,16 +149,14 @@
     <Button
         android:id="@+id/goto_store_button"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_gravity="center"
-        android:backgroundTint="#36CC52"
-
-        android:fontFamily="@font/calibri"
-        android:text="Go to site"
+        android:layout_height="wrap_content"
+        android:layout_margin="9dp"
+        android:fontFamily="@font/roboto"
+        android:text="Acheter"
         android:textAllCaps="false"
-        android:textColor="#ffffff"
-        android:textSize="24sp"
+        android:textSize="@dimen/dimen14sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/scrollView2"
         app:layout_constraintVertical_bias="1.0" />

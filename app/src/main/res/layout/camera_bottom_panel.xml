@@ -4,7 +4,6 @@
     android:id="@+id/bottomPanel"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/camera_menu_background"
     >
 
 
@@ -17,33 +16,23 @@
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab_search"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
             android:layout_margin="5dp"
-            android:backgroundTint="@color/design_default_color_on_secondary"
-            android:src="@drawable/search_green_32"
-            app:backgroundTint="@color/camera_menu_btn_tint"
-            app:borderWidth="1dp"
-            app:rippleColor="@color/camera_menu_btn_ripple" />
+            android:src="@android:drawable/ic_menu_search"
+            app:borderWidth="0dp" />
     </FrameLayout>
-
     <FrameLayout
         android:layout_width="64dp"
         android:layout_height="80dp"
         android:layout_weight="1">
-
-
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab_camera"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
             android:layout_margin="5dp"
-            android:backgroundTint="@color/design_default_color_on_secondary"
-            android:src="@drawable/ic_camera"
-            app:backgroundTint="@color/camera_menu_btn_tint"
-            app:borderWidth="1dp"
-            app:rippleColor="@color/camera_menu_btn_ripple" />
+            app:borderWidth="0dp"/>
 
 
     </FrameLayout>
@@ -60,13 +49,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-
             android:layout_margin="5dp"
-            android:backgroundTint="@color/design_default_color_on_secondary"
             android:src="@drawable/ruler_green_32"
-            app:backgroundTint="@color/camera_menu_btn_tint"
-            app:borderWidth="1dp"
-            app:rippleColor="@color/camera_menu_btn_ripple" />
+            app:borderWidth="0dp"/>
     </FrameLayout>
 
 </LinearLayout>

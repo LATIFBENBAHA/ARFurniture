@@ -13,30 +13,28 @@
         card_view:layout_constraintBottom_toBottomOf="parent"
         card_view:layout_constraintEnd_toEndOf="parent"
         card_view:layout_constraintStart_toEndOf="parent"
-
-
         card_view:layout_constraintTop_toTopOf="parent">
-
-        <ImageView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:scaleType="centerCrop"
-            android:src="@drawable/cool_bcg" />
 
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:orientation="vertical">
+            android:background="@android:color/white"
+            android:gravity="start"
+            android:orientation="vertical"
+            android:paddingTop="30dip">
 
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
+                android:layout_gravity="right|left"
+                android:layout_margin="22.0dip"
                 android:layout_marginTop="14.0dip"
-                android:text="How to use the app?"
-                android:textColor="#000000"
-                android:textSize="16.0sp" />
+                android:fontFamily="@font/roboto_black"
+                android:text="Comment utiliser l'application?"
+                android:textColor="@android:color/black"
+                android:textSize="32sp"
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="fill_parent"
@@ -65,7 +63,7 @@
                             android:layout_height="fill_parent"
                             card_view:cardCornerRadius="@dimen/card_view_corner_radius">
 
-                            <com.huji.couchmirage.greetings.SquareImageButton
+                            <com.houssem.fria.greetings.SquareImageButton
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:layout_alignParentLeft="true"
@@ -100,9 +98,10 @@
                                 android:layout_centerVertical="true"
                                 android:layout_marginLeft="10.0dip"
                                 android:layout_marginRight="10.0dip"
+                                android:fontFamily="@font/roboto_medium"
                                 android:gravity="left"
-                                android:text="1. (Optional) Measure 3D shape"
-                                android:textColor="#000000"
+                                android:text="Mesurez la volume (facultatif)"
+                                android:textColor="@color/design_default_color_on_secondary"
                                 android:textSize="17.0sp" />
                         </RelativeLayout>
                     </LinearLayout>
@@ -127,7 +126,7 @@
                             android:layout_height="fill_parent"
                             card_view:cardCornerRadius="@dimen/card_view_corner_radius">
 
-                            <com.huji.couchmirage.greetings.SquareImageButton
+                            <com.houssem.fria.greetings.SquareImageButton
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:layout_alignParentLeft="true"
@@ -157,8 +156,9 @@
                                 android:layout_centerVertical="true"
                                 android:layout_marginLeft="10.0dip"
                                 android:layout_marginRight="10.0dip"
+                                android:fontFamily="@font/roboto_medium"
                                 android:gravity="left"
-                                android:text="2. Search a furniture in the catalog"
+                                android:text="Dans le catalogue, selectionnez un produit"
                                 android:textColor="#000000"
                                 android:textSize="17.0sp" />
                         </RelativeLayout>
@@ -185,7 +185,7 @@
                             card_view:cardCornerRadius="@dimen/card_view_corner_radius">
 
 
-                            <com.huji.couchmirage.greetings.SquareImageButton
+                            <com.houssem.fria.greetings.SquareImageButton
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:layout_alignParentLeft="true"
@@ -215,8 +215,9 @@
                                 android:layout_centerVertical="true"
                                 android:layout_marginLeft="10.0dip"
                                 android:layout_marginRight="10.0dip"
+                                android:fontFamily="@font/roboto_medium"
                                 android:gravity="left"
-                                android:text="3. Place the furniture"
+                                android:text="Placez le produit"
                                 android:textColor="#000000"
                                 android:textSize="17.0sp" />
                         </RelativeLayout>
@@ -230,24 +231,29 @@
     </RelativeLayout>
 
     <Button
+
         android:id="@+id/exit_greeting"
-        android:layout_width="100dp"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+
+        android:layout_width="140dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:layout_margin="10dp"
-
+        android:layout_marginEnd="20dp"
         android:layout_marginBottom="16dp"
-        android:background="@drawable/round_button_alt"
+        android:drawableTint="@android:color/black"
+        android:fontFamily="@font/roboto_medium"
         android:text="OK"
-        android:textColor="#DAEFDE"
-        android:textSize="20.0sp"
-        android:textStyle="bold"
-
+        android:textAllCaps="false"
+        android:textColor="@color/friaBackgroundColor"
+        android:textColorHighlight="@color/bg_comments"
+        android:textSize="18.0sp"
+        android:textStyle="normal"
         card_view:layout_constraintBottom_toBottomOf="@+id/relativeLayout"
         card_view:layout_constraintEnd_toEndOf="parent"
-        card_view:layout_constraintStart_toStartOf="@+id/relativeLayout"
         card_view:layout_constraintTop_toTopOf="@+id/relativeLayout"
-        card_view:layout_constraintVertical_bias="1.0" />
+        card_view:layout_constraintVertical_bias="1.0"
+        card_view:rippleColor="@color/friaBackgroundColor" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

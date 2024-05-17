@@ -1,8 +1,16 @@
 <resources>
-    <string name="app_name">CouchMirage</string>
-    <string name="measure">measure</string>
-    <string name="free_measurement">free measurement</string>
-    <string name="square_measurments">Square Measurments</string>
+    <string name="app_name">Fria</string>
+    <string name="measure">mesure</string>
+    <string name="free_measurement">Mesures libres</string>
+    <string name="square_measurments">Mesures carrées </string>
+    <string name="categories_title">Category item(dep item) </string>
+    <string name="categories">Categories </string>
+    <string name="favorite">Favorite </string>
+    <string name="filter">Filter </string>
+    <string name="more">More </string>
+    <string name="search">Search </string>
+
+
     <plurals name="likes_count">
         <item quantity="one">%d like</item>
         <item quantity="other">%d likes</item>
@@ -33,40 +41,60 @@
     </string-array>
     <string name="user_profile_photo">http://igcdn-photos-f-a.akamaihd.net/hphotos-ak-xpa1/t51.2885-19/929118_455075441302693_1605108410_a.jpg</string>
     <string name="bottom_transient_bar_behavior">com.tunjid.androidx.material.behavior.BottomTransientBarBehavior</string>
-    <string name="clear">clear</string>
+    <string name="clear">Effacer</string>
 
 
-    <string name="red_advise_1">Aim the camera on a textured surface (either horizontal or vertical)</string>
-    <string name="red_advise_2">"Select appropriate distance
- (0.5m - 3m)"</string>
-    <string name="red_advise_3">Make sure the lighting is good</string>
-    <string name="red_advise_4">Move the camera farther / closer to the surface</string>
-    <string name="red_advise_5">Try to change the viewing angle</string>
-    <string name="red_advise_6">Try to recognize another surface</string>
+    <string name="red_advise_1">Pointez la caméra sur une surface texturée (horizontale ou verticale)</string>
+    <string name="red_advise_2">"Sélectionnez la distance appropriée
+  (0.5m - 3m) "</string>
+    <string name="red_advise_3">Assurez-vous que l"éclairage est bonne</string>
+    <string name="red_advise_4">Déplacez la caméra plus loin / Rapprochez la caméra</string>
+    <string name="red_advise_5">Essayez de changer l"angle de vue</string>
+    <string name="red_advise_6">Essayez de reconnaitre une autre surface</string>
 
-    <string name="yellow_advise_1">Press the Ruler button</string>
-    <string name="yellow_advise_2">Select width</string>
-    <string name="yellow_advise_3">Select length</string>
-    <string name="yellow_advise_4">Select height</string>
-    <string name="yellow_advise_5">Press confirm</string>
+    <string name="yellow_advise_1">Appuez sur le bouton de la règle</string>
+    <string name="yellow_advise_2">Selectionnez la largeur</string>
+    <string name="yellow_advise_3">Selectionnez la longueur</string>
+    <string name="yellow_advise_4">Selectionnez la hauteur</string>
+    <string name="yellow_advise_5">Appuyez sur confirmer</string>
 
-    <string name="green_advise_1">Press the Search button</string>
-    <string name="green_advise_2">Press the Ruler button to reset</string>
-    <string name="camera_load_animation_text">Move phone to start</string>
-    <string name="default_text">no description</string>
+    <string name="green_advise_1">Appuyez sur le bouton Rechercher</string>
+    <string name="green_advise_2">Appuyez sur le bouton Règle pour réinitialiser</string>
+    <string name="camera_load_animation_text">Déplacez le téléphone pour commencer</string>
+    <string name="default_text">Pas de description</string>
 
 
-    <string name="welcome_message">Welcome to \nCouch Mirage</string>
+    <string name="welcome_message">Fria</string>
 
     <string-array name="arcore_welcome_buttons">
         <item>@string/welcome_message</item>
     </string-array>
 
-    <string name="info_textured">Use flat textured surfaces, as they are more visible to the app.</string>
-    <string name="info_move_short">Move the camera</string>
-    <string name="how_to_recognize_surfaces">How to recognize surfaces?</string>
+    <string name="info_textured">Utilisez des surfaces texturées plates, car ils sont plus visibles pour l"application.</string>
+    <string name="info_move_short">Déplacez la caméra</string>
+    <string name="how_to_recognize_surfaces">Comment reconnaitre les surfaces?</string>
     <string name="about_app">An app that lets you measure the real world in a 3d virtual cube and virtually place furniture in your home</string>
     <string name="how_app_works">It utilizes the ARCore and Sceneform libraries by google to generate  virtual surface plane  onto your floor.
         Then the surface can be measured to generate 3d measurements and place 3D models  </string>
+
+    <string name="info_lighting">Veiller à un bon éclairage.</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="sign_in">Sign  in</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="forget_password">Forget password</string>
+    <string name="_2023_fria"><![CDATA[2023 Fria by A&I. All Rights Reserved20231 Fria by AB&IS. All Rights Reserved]]></string>
+    <string name="new_customer_create_your_account"><![CDATA[New Customer? <font color=\'#008CFF\'>Create Your Account</font>]]></string>
+    <string name="loading">Loading...</string>
+    <string name="email_required">Email Required</string>
+    <string name="enter_a_valid_email_address">Enter a valid email address</string>
+    <string name="password_required">Password Required</string>
+    <string name="password__at_least_8_characters">Password should be at least 8 characters</string>
+    <string name="Invalid_email_or_password">Invalid email or password</string>
 
 </resources>
