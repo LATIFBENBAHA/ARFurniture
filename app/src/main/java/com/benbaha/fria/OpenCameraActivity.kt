@@ -1,4 +1,4 @@
-package com.latif.fria
+package com.benbaha.fria
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -17,7 +17,7 @@ import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
-import com.example.sandy.kotlinfragment.Utils
+import com.benbaha.fria.Utils
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.ar.core.Anchor
 import com.google.ar.core.HitResult
@@ -32,12 +32,10 @@ import com.google.ar.sceneform.rendering.ModelRenderable
 import com.google.ar.sceneform.rendering.Renderable
 import com.google.ar.sceneform.ux.TransformableNode
 import com.google.firebase.FirebaseApp
-import com.latif.fria.ar.MyArFragment
-import com.latif.fria.catalog.CatalogFrontActivity
-import com.latif.fria.greetings.GreetingActivity
-import com.latif.fria.greetings.SquareImageButton
-import com.latif.fria.utils.PhotoSaver
-import com.latif.fria.utils.VideoRecorder
+import com.benbaha.fria.ar.MyArFragment
+import com.benbaha.fria.catalog.CatalogFrontActivity
+import com.benbaha.fria.utils.PhotoSaver
+import com.benbaha.fria.utils.VideoRecorder
 import com.warkiz.widget.IndicatorSeekBar
 import com.warkiz.widget.IndicatorStayLayout
 import com.warkiz.widget.OnSeekChangeListener
@@ -51,7 +49,7 @@ import java.util.*
  * Camera activity
  */
 class OpenCameraActivity : AppCompatActivity() {
-    val PREFS_FILE = "CouchMirageMeasurmentFile"
+    val PREFS_FILE = "FriaMeasurmentFile"
     var prefs: SharedPreferences? = null
 
     //
@@ -134,42 +132,6 @@ class OpenCameraActivity : AppCompatActivity() {
 
     }
 
-    /***
-     * When starting the app for the first time shows the user information abot the app
-     */
-    private fun startGreetingActivity() {
-
-        var previouslyStarted =
-            prefs!!.getBoolean("first_time", false)
-
-        val intent = Intent(application, GreetingActivity::class.java)
-
-
-        if (!previouslyStarted) {
-            val edit = prefs!!.edit()
-            edit.putBoolean("first_time", java.lang.Boolean.TRUE)
-
-            overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
-
-            startActivity(intent)
-
-            edit.commit()
-        }
-    }
-
-    /***
-     * Initialzie the help button
-     */
-    private fun setupHelpButton() {
-        val help: SquareImageButton = findViewById(R.id.help_btn)
-        help.setOnClickListener { view ->
-            //TODO uncomment to see help notes
-            /* val intent = Intent(this, HelpActivity::class.java)
-
-             startActivity(intent)*/
-
-        }
-    }
     private fun setupLogoutButton() {
         val logoutBtn: FloatingActionButton = findViewById(R.id.logout_btn)
         logoutBtn.setOnClickListener { view ->
@@ -217,7 +179,6 @@ class OpenCameraActivity : AppCompatActivity() {
         setupSearchButton()
         setupCameraButton()
         setupUpInfoButton()
-        setupHelpButton()
         setupSeekBar()
         setupLogoutButton()
     }

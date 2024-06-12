@@ -1,4 +1,4 @@
-package com.latif.fria
+package com.benbaha.fria
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.latif.fria
+package com.benbaha.fria
 
 import android.content.Context
 import android.util.AttributeSet

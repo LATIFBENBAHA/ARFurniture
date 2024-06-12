@@ -1,4 +1,4 @@
-package com.latif.fria.catalog
+package com.benbaha.fria.catalog
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -8,8 +8,8 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
-import com.latif.fria.*
-import com.latif.fria.Room.Furniture
+import com.benbaha.fria.*
+import com.benbaha.fria.Room.Furniture
 import kotlinx.android.synthetic.main.departements_gallery_layout.*
 
 //import kotlinx.android.synthetic.main.catalog_front.*

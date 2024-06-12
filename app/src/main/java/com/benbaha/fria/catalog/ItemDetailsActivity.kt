@@ -1,4 +1,4 @@
-package com.latif.fria.catalog
+package com.benbaha.fria.catalog
 
 import android.content.Intent
 import android.net.Uri
@@ -17,10 +17,10 @@ import com.denzcoskun.imageslider.models.SlideModel
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.firebase.storage.FirebaseStorage
 import com.google.firebase.storage.StorageReference
-import com.latif.fria.R
-import com.latif.fria.Room.Furniture
-import com.latif.fria.ViewModel.FavoritesViewModel
-import com.latif.fria.ViewModel.FavoritesViewModelFactory
+import com.benbaha.fria.R
+import com.benbaha.fria.Room.Furniture
+import com.benbaha.fria.ViewModel.FavoritesViewModel
+import com.benbaha.fria.ViewModel.FavoritesViewModelFactory
 import kotlinx.android.synthetic.main.item_details_activity.*
 import kotlinx.android.synthetic.main.item_details_title.*
 import java.io.File
@@ -164,7 +164,7 @@ class ItemDetailsActivity : AppCompatActivity() {
 
     private fun setUpItemPrice() {
         val itemDescription: TextView = findViewById(R.id.price_text)
-        itemDescription.setText(selectedItem.price.toString() + " DZD")
+        itemDescription.setText(selectedItem.price.toString() + " EUR")
     }
 
     private fun setUpItemDescription() {

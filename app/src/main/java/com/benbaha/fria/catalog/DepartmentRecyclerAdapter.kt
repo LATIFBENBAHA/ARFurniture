@@ -1,4 +1,4 @@
-package com.latif.fria.catalog
+package com.benbaha.fria.catalog
 
 import android.view.LayoutInflater
 import android.view.View
@@ -8,8 +8,8 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
-import com.latif.fria.R
-import com.latif.fria.Room.Department
+import com.benbaha.fria.R
+import com.benbaha.fria.Room.Department
 import kotlinx.android.synthetic.main.layout_department_single_list_item.view.*
 
 class DepartmentRecyclerAdapter(

@@ -1,10 +1,10 @@
-package com.latif.fria.ViewModel
+package com.benbaha.fria.ViewModel
 
 import android.app.Application
 import androidx.lifecycle.*
-import com.latif.fria.Room.AppDatabase
-import com.latif.fria.Repository.FavoritesRepository
-import com.latif.fria.Room.Furniture
+import com.benbaha.fria.Room.AppDatabase
+import com.benbaha.fria.Repository.FavoritesRepository
+import com.benbaha.fria.Room.Furniture
 
 class FavoritesViewModelFactory(
         private val app: Application)
