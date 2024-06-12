@@ -6,10 +6,10 @@
     android:layout_height="match_parent"
     >
 
-   <ImageView
-       android:id="@+id/background_image"
-       android:layout_width="match_parent"
-       android:layout_height="match_parent"
-       android:scaleType="centerCrop"
-       android:src="@drawable/ic_fria" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/fria_splash" />
 </FrameLayout>

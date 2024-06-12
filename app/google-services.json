@@ -1,36 +1,26 @@
 {
   "project_info": {
-    "project_number": "221217065772",
-    "project_id": "fria-e4a22",
-    "storage_bucket": "fria-e4a22.appspot.com"
+    "project_number": "382805991452",
+    "project_id": "arfur-39716",
+    "storage_bucket": "arfur-39716.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:221217065772:android:f8ca14e66965051dfbba89",
+        "mobilesdk_app_id": "1:382805991452:android:496d8af6eb00167e4e3fd9",
         "android_client_info": {
-          "package_name": "com.houssem.fria"
+          "package_name": "com.benbaha.fria"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "221217065772-63cuck8vj5n9dd84il3b53eiubum298n.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDD-YEP1-YMrxNmwbpWZUAOxtgoHDwn11Q"
+          "current_key": "AIzaSyDdHZZ5NsHnOVPBEmfZkBNrDNt1WPPY-xE"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "221217065772-63cuck8vj5n9dd84il3b53eiubum298n.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

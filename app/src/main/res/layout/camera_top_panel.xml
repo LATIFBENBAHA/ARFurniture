@@ -35,7 +35,7 @@
         app:layout_constraintTop_toTopOf="parent"
         />
 
-    <com.houssem.fria.InfoFAB
+    <com.benbaha.fria.InfoFAB
         android:id="@+id/fab_info"
         android:layout_width="48dp"
         android:layout_height="wrap_content"
@@ -89,24 +89,6 @@
         app:layout_constraintStart_toEndOf="@+id/fab_info"
         app:layout_constraintTop_toTopOf="parent" />
 
-
-    <com.houssem.fria.greetings.SquareImageButton
-        android:id="@+id/help_btn"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:foregroundGravity="fill_horizontal|top"
-
-        android:scaleType="centerCrop"
-
-        android:src="@android:drawable/ic_menu_help"
-        android:textColor="@color/info_ripple_yellow"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/logout_btn"
-        app:layout_constraintHorizontal_bias="0.737"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/logout_btn"

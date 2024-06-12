@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CouchMirage.iml" filepath="$PROJECT_DIR$/.idea/modules/CouchMirage.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CouchMirage.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CouchMirage.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CouchMirage.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CouchMirage.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CouchMirage.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CouchMirage.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CouchMirage.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CouchMirage.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Fria.iml" filepath="$PROJECT_DIR$/.idea/modules/Fria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Fria.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Fria.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Fria.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Fria.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Fria.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Fria.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Fria.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Fria.app.unitTest.iml" />
     </modules>
   </component>
 </project>

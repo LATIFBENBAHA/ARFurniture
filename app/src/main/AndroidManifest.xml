@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.houssem.fria">
+    package="com.benbaha.fria">
 
     <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- ARCODE REQUIRED -->
     <uses-permission android:name="android.permission.CAMERA" />
@@ -23,7 +23,7 @@
         android:supportsRtl="false"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.houssem.fria.LoginActivity"
+            android:name="com.benbaha.fria.LoginActivity"
             android:exported="false"
             android:theme="@style/LoginActivityTheme"
             >
@@ -31,9 +31,9 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <activity android:name="com.houssem.fria.MyFavoritesActivity" />
+        <activity android:name="com.benbaha.fria.MyFavoritesActivity" />
         <activity
-            android:name="com.houssem.fria.SplashActivity"
+            android:name="com.benbaha.fria.SplashActivity"
             android:theme="@style/SplashScreenTheme"
             android:exported="true">
             <intent-filter>
@@ -42,7 +42,7 @@
             </intent-filter>
         </activity> <!-- catalog related activities -->
         <activity
-            android:name="com.houssem.fria.catalog.CatalogFrontActivity"
+            android:name="com.benbaha.fria.catalog.CatalogFrontActivity"
             android:screenOrientation="portrait"
             android:exported="true">
             <intent-filter>
@@ -52,23 +52,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.houssem.fria.catalog.ItemDetailsActivity"
+            android:name="com.benbaha.fria.catalog.ItemDetailsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.houssem.fria.catalog.DepartmentActivity"
-            android:screenOrientation="portrait" /> <!-- Greetings related activities -->
-        <activity
-            android:name="com.houssem.fria.greetings.GreetingActivity"
-            android:configChanges="orientation|screenSize"
-            android:exported="true"
-            android:screenOrientation="locked"
-            android:theme="@style/AppTheme" /> <!-- Help page  related activities -->
+            android:name="com.benbaha.fria.catalog.DepartmentActivity"
+            android:screenOrientation="portrait" />
+
 
         <activity
-            android:name="com.houssem.fria.Help.HelpActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.houssem.fria.OpenCameraActivity"
+            android:name="com.benbaha.fria.OpenCameraActivity"
             android:screenOrientation="portrait">
             <!--<intent-filter>
                 <action android:name="android.intent.action.MAIN" />
