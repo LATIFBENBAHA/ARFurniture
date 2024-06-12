@@ -1,4 +1,4 @@
-package com.latif.fria.catalog
+package com.benbaha.fria.catalog
 
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
@@ -10,7 +10,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.view.Window
 import androidx.fragment.app.FragmentManager
-import com.latif.fria.R
+import com.benbaha.fria.R
 
 
 class LoadingDialogFragment : DialogFragment() {

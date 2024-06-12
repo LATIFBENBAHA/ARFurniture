@@ -1,4 +1,4 @@
-package com.latif.fria.catalog
+package com.benbaha.fria.catalog
 
 import android.text.Html
 import android.view.LayoutInflater
@@ -9,8 +9,8 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
-import com.latif.fria.R
-import com.latif.fria.Room.Furniture
+import com.benbaha.fria.R
+import com.benbaha.fria.Room.Furniture
 import kotlinx.android.synthetic.main.layout_single_list_item.view.*
 
 class ItemRecyclerAdapter(
@@ -64,7 +64,7 @@ class ItemRecyclerAdapter(
         fun bind(item: Furniture) {
             itemName.text = item.model
             itemColor.text = item.color
-            itemPrice.text = item.price.toString() + " DZD"
+            itemPrice.text = item.price.toString() + " EUR"
             itemSizes.text=Html.fromHtml("${item.sizes[0]} x ${item.sizes[1]} x ${item.sizes[2]} [cm <sup>3</sup>]")
 
             val requestOptions = RequestOptions()

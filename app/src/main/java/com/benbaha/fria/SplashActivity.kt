@@ -1,11 +1,11 @@
-package com.latif.fria
+package com.benbaha.fria
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
-import com.example.sandy.kotlinfragment.Utils
+import com.benbaha.fria.Utils
 
 class SplashActivity : AppCompatActivity() {
 

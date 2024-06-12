@@ -1,4 +1,4 @@
-package com.latif.fria.Room
+package com.benbaha.fria.Room
 
 
 import androidx.room.Entity

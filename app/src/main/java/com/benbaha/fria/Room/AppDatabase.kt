@@ -1,4 +1,4 @@
-package com.latif.fria.Room
+package com.benbaha.fria.Room
 
 import android.content.Context
 import androidx.room.Database
@@ -6,8 +6,8 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import androidx.sqlite.db.SupportSQLiteDatabase
-import com.latif.fria.Repository.FavoritesDAO
-import com.latif.fria.utils.Converters
+import com.benbaha.fria.Repository.FavoritesDAO
+import com.benbaha.fria.utils.Converters
 
 @Database(entities = [Furniture::class], version = 1,exportSchema = false)
 @TypeConverters(Converters::class)

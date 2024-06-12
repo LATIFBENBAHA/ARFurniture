@@ -1,4 +1,4 @@
-package com.latif.fria.catalog
+package com.benbaha.fria.catalog
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -13,9 +13,9 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.recyclerview.widget.GridLayoutManager
 import com.google.android.material.shape.MaterialShapeDrawable
 import com.google.firebase.firestore.FirebaseFirestore
-import com.latif.fria.BoxMeasurements
-import com.latif.fria.R
-import com.latif.fria.Room.Furniture
+import com.benbaha.fria.BoxMeasurements
+import com.benbaha.fria.R
+import com.benbaha.fria.Room.Furniture
 import kotlinx.android.synthetic.main.categories_layout.*
 
 //import kotlinx.android.synthetic.main.catalog_front.*

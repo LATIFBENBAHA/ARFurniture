@@ -1,4 +1,4 @@
-package com.latif.fria.utils
+package com.benbaha.fria.utils
 
 import androidx.room.TypeConverter
 import com.google.gson.Gson

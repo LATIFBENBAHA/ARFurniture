@@ -1,4 +1,4 @@
-package com.latif.fria
+package com.benbaha.fria
 
 import android.content.Context
 import android.widget.TextView
@@ -10,7 +10,7 @@ import com.google.ar.sceneform.math.Vector3
 import com.google.ar.sceneform.rendering.*
 import com.google.ar.sceneform.ux.ArFragment
 import com.google.ar.sceneform.ux.TransformableNode
-import com.latif.fria.ar.CameraFacingNode
+import com.benbaha.fria.ar.CameraFacingNode
 import java.io.Serializable
 
 /***

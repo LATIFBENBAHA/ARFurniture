@@ -1,6 +1,6 @@
-package com.latif.fria.catalog
+package com.benbaha.fria.catalog
 
-import com.latif.fria.Room.Department
+import com.benbaha.fria.Room.Department
 
 class DepartmentSourceData {
     companion object {
@@ -27,23 +27,23 @@ class DepartmentSourceData {
                     "Les tables"
                 )
             )
-            /*list.add(
-                Department(
-                    "BEDS & MATTRESSES",
-                    "https://firebasestorage.googleapis.com/v0/b/creche-cde47.appspot.com/o/images%2Fbeds.png?alt=media&token=01a6565c-8251-4930-83a2-cda8ffc453ec",//""https://img.icons8.com/windows/96/000000/bed.png",
-                        "Les salons"
-                )
-            )*/
             list.add(
                 Department(
-                    "Les Salons",
-                    "https://firebasestorage.googleapis.com/v0/b/fria-e4a22.appspot.com/o/images%2FDoubleX_2.jpg?alt=media&token=66084e99-d6c6-4abc-8827-1a72a157f1b5",//"https://firebasestorage.googleapis.com/v0/b/creche-cde47.appspot.com/o/images%2Fbeds.png?alt=media&token=01a6565c-8251-4930-83a2-cda8ffc453ec",//""https://img.icons8.com/windows/96/000000/bed.png",
-                    "Les salons"
+                    "Lits et Matelas",
+                    "https://firebasestorage.googleapis.com/v0/b/creche-cde47.appspot.com/o/images%2Fbeds.png?alt=media&token=01a6565c-8251-4930-83a2-cda8ffc453ec",//""https://img.icons8.com/windows/96/000000/bed.png",
+                        "Lits et matelas"
                 )
             )
             list.add(
                 Department(
-                    "Les chaises",
+                    "Canapés",
+                    "https://firebasestorage.googleapis.com/v0/b/arfur-39716.appspot.com/o/images%2FCanap%C3%A9s.jpg?alt=media&token=bafebc90-9666-43b7-b4f0-b8039c35adef",//"https://firebasestorage.googleapis.com/v0/b/creche-cde47.appspot.com/o/images%2Fbeds.png?alt=media&token=01a6565c-8251-4930-83a2-cda8ffc453ec",//""https://img.icons8.com/windows/96/000000/bed.png",
+                    "Canapés"
+                )
+            )
+            list.add(
+                Department(
+                    "Les Chaises",
                     "https://firebasestorage.googleapis.com/v0/b/fria-e4a22.appspot.com/o/images%2FJaguar_ch_icon.jpg?alt=media&token=32aa04d8-8983-487c-b3b0-e3b3f4e41fec",//"https://firebasestorage.googleapis.com/v0/b/creche-cde47.appspot.com/o/images%2Fchairs.png?alt=media&token=d81ed15e-52dd-4ca0-80d9-9263ef3937d6",//""https://img.icons8.com/windows/96/000000/chair.png",
                         "Les chaises"
                 )

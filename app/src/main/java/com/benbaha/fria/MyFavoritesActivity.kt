@@ -1,12 +1,12 @@
-package com.latif.fria
+package com.benbaha.fria
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.latif.fria.Room.Furniture
-import com.latif.fria.ViewModel.FavoritesViewModel
-import com.latif.fria.ViewModel.FavoritesViewModelFactory
+import com.benbaha.fria.Room.Furniture
+import com.benbaha.fria.ViewModel.FavoritesViewModel
+import com.benbaha.fria.ViewModel.FavoritesViewModelFactory
 import com.xwray.groupie.GroupAdapter
 import com.xwray.groupie.GroupieViewHolder
 import com.xwray.groupie.Item

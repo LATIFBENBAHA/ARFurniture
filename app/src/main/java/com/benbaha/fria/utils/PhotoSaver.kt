@@ -1,4 +1,4 @@
-package com.latif.fria.utils
+package com.benbaha.fria.utils
 
 
 import android.app.Activity
@@ -26,7 +26,7 @@ class PhotoSaver(
     private val activity: Activity
 ) {
     private var title: String = ""
-    private var description = "taken with CouchMirage"
+    private var description = "taken with Fria"
 
     private fun generateFilename(): String? {
         val date = SimpleDateFormat("yyyyMMddHHmmss", Locale.getDefault()).format(Date())
@@ -41,7 +41,7 @@ class PhotoSaver(
         val contentValues = ContentValues().apply {
             put(MediaStore.MediaColumns.DISPLAY_NAME, "${date}_screenshot.jpg")
             put(MediaStore.MediaColumns.MIME_TYPE, "image/jpeg")
-            put(MediaStore.MediaColumns.RELATIVE_PATH, "DCIM/CouchMirage")
+            put(MediaStore.MediaColumns.RELATIVE_PATH, "DCIM/Fria")
         }
 
         val uri = activity.contentResolver.insert(

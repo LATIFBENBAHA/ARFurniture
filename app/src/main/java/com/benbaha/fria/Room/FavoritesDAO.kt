@@ -1,8 +1,8 @@
-package com.latif.fria.Repository
+package com.benbaha.fria.Repository
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import com.latif.fria.Room.Furniture
+import com.benbaha.fria.Room.Furniture
 
 interface IFavoritesDAO {
     fun   getAll(): LiveData<List<Furniture>>

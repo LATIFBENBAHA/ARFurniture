@@ -1,4 +1,4 @@
-package com.latif.fria.ar
+package com.benbaha.fria.ar
 
 import com.google.ar.sceneform.FrameTime
 import com.google.ar.sceneform.Node

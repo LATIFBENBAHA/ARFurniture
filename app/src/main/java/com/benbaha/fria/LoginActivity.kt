@@ -1,4 +1,4 @@
-package com.latif.fria
+package com.benbaha.fria
 
 
 import android.app.Activity
@@ -10,7 +10,8 @@ import android.view.View
 import androidx.appcompat.app.ActionBar
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import com.example.sandy.kotlinfragment.Utils
+import com.benbaha.fria.R
+import com.benbaha.fria.Utils
 import kotlinx.android.synthetic.main.activity_login.*
 
 
@@ -42,7 +43,7 @@ class LoginActivity : AppCompatActivity() {
         val email: String = inputEmail.getText().toString()
         val password: String = inputPassword.getText().toString()
         if (email.isEmpty()) {
-            inputEmail.setError(getString(com.latif.fria.R.string.email_required))
+            inputEmail.setError(getString(com.benbaha.fria.R.string.email_required))
             inputEmail.requestFocus()
         }
         if (Validation.isValidEmail(email)) {

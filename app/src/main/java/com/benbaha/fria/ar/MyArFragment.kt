@@ -1,4 +1,4 @@
-package com.latif.fria.ar
+package com.benbaha.fria.ar
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,7 +10,7 @@ import com.google.ar.core.TrackingState
 import com.google.ar.sceneform.FrameTime
 import com.google.ar.sceneform.Scene
 import com.google.ar.sceneform.ux.ArFragment
-import com.latif.fria.OpenCameraActivity
+import com.benbaha.fria.OpenCameraActivity
 
 /****
  * Custom ar fragment
