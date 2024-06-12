@@ -2,6 +2,7 @@
 
 <img src="docs\images\logo.png" width="200" align="right" />
 
+
 <b>Welcome to Fria!</b>
 
 
