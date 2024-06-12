@@ -11,7 +11,7 @@ android {
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "com.houssem.fria"
+        applicationId "com.benbaha.fria"
         minSdkVersion 24
         targetSdkVersion 33
         versionCode 4
@@ -77,9 +77,10 @@ dependencies {
 
     // firebase
     implementation 'com.google.firebase:firebase-analytics-ktx:17.5.0'
-    implementation 'com.google.firebase:firebase-auth-ktx:19.4.0'
+    implementation 'com.google.firebase:firebase-auth-ktx:20.0.0'
     implementation 'com.google.firebase:firebase-firestore-ktx:21.7.0'
     implementation 'com.firebaseui:firebase-ui-firestore:6.2.1'
+
 
     //compileOnly 'com.google.android.wearable:wearable:2.6.0'
 

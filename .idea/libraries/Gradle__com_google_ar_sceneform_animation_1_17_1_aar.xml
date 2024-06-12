@@ -8,6 +8,8 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/51829b59c8a026004ba95e2d35dcfb3d/jetified-animation-1.17.1/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e738a6ee97f130fa9e85ec233cd76461/jetified-animation-1.17.1/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e738a6ee97f130fa9e85ec233cd76461/jetified-animation-1.17.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f1e92cdc5d7e3890ab8e44c4206dcbb2/jetified-animation-1.17.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f1e92cdc5d7e3890ab8e44c4206dcbb2/jetified-animation-1.17.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
