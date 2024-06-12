@@ -34,19 +34,18 @@ Go to :
 ## Screenshots
 
 ### Main page searching for plane
-![screenshot 1](docs/images/screenshot_1.jpeg)
+![screenshot 1](docs/images/screenshot_1.jpg)
 ### Main page plane discovered
-![screenshot 2](docs/images/screenshot_2.jpeg)
-### Main page measuring 3d box
-![screenshot 3](docs/images/screenshot_3.jpeg)
+![screenshot 2](docs/images/screenshot_2.jpg)
 ### Furniture Catalog main papge
-![screenshot 4](docs/images/screenshot_4.jpeg)
+![screenshot 3](docs/images/screenshot_3.jpg)
 ### Item catalog by category screen
-![screenshot 5](docs/images/screenshot_5.jpeg)
+![screenshot 4](docs/images/screenshot_4.jpg)
 ### Item description screen
-![screenshot 6](docs/images/screenshot_6.jpeg)
+![screenshot 5](docs/images/screenshot_5.jpeg)
 ### The model has been placed!!
-![screenshot 7](docs/images/screenshot_7.jpeg)
+![screenshot 6](docs/images/screenshot_6.jpg)
+![screenshot 7](docs/images/screenshot_7.jpg)
 
 
 
